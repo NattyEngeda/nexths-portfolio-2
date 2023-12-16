@@ -4,10 +4,11 @@ import {
   IconMenu2,
 } from "@tabler/icons-react";
 import { Menu } from "@mantine/core";
+import Image from 'next/image'
 
 export default function Header() {
   return (
-    <header className="z-40 bg-gray-400  w-full h-20 md:h-24 flex flex-row gap-20 items-center justify-center fixed md:px-20 glassy-header">
+    <header className="z-40 w-full h-20 md:h-24 flex flex-row gap-20 items-center justify-center fixed md:px-20 glassy-header">
       <div className="container flex flex-row gap-20 items-center justify-between px-5 md:px-0 ">
         <div className="transition duration-300  md:px-5 md:py-1  flex flex-row gap-2 items-center justify-center">
           <div className="w-full">
@@ -15,6 +16,12 @@ export default function Header() {
               className="w-12 md:w-12 h-auto"
               src={logo}
               alt="Natty Engeda" /> */}
+            <Image
+              src="/assets/images/logo.png"
+              width={500}
+              height={500}
+              alt="Logo"
+            />
           </div>
           <h1 className="hidden md:block link-underline text-3xl font-bold font-VT323 text-black">
             Natty.Engeda
