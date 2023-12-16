@@ -1,11 +1,10 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
+import './styles/loading-style.css'
+import './styles/underline-style.css'
 import Header from './layouts/Header'
-import { ColorSchemeScript, MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@mantine/core';
 
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -19,10 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body >
         <MantineProvider>
           <Header />
-          {children}
+          <main className='w-full min-h-screen gradient_background pt-10 md:pt-28'>
+            {children}
+          </main>
         </MantineProvider>
       </body>
     </html>
