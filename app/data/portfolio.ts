@@ -10,7 +10,7 @@ export const websitesProjects = [
         color: '#8bc43b',
         image: fistumImage,
         imageDescription: "Firstum Printing and Advert Image",
-        url: "https://fitsumpptest.vercel.app/",
+        url: "https://fitsumprintandadvertisng.com/",
         description: "Semah Mother Child Hospital Website for Online Appointment and Medical Information..."
     },
     {

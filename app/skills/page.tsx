@@ -32,21 +32,21 @@ export default function Skills() {
         </div>
         <div className='w-full md:w-[80%]'>
           <p>
-            I'm a skilled Frontend Web Developer with experience in JavaScript and expertise in frameworks/library like Next.js, React.js, Tailwind, Bootstap and MUI. I'm a quick learner
+            {` I'm a skilled Frontend Web Developer with experience in JavaScript and expertise in frameworks/library like Next.js, React.js, Tailwind, Bootstap and MUI. I'm a quick learner
             and collaborate closely with clients to create efficientm scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to
-            life!
+            life!`}
           </p>
         </div>
         <div className='flex flex-col gap-5'>
           <div>
-            <h1 className='text-5xl md:text-5xl font-semibold '>Skills.</h1>
+            <h1 className='text-5xl md:text-5xl font-semibold'>Skills.</h1>
           </div>
           <div>
             <div className='flex flex-col gap-10'>
 
               {/* Basic */}
               <div>
-                <h1 className='text-3xl md:text-4xl font-llight '>Basics</h1>
+                <h1 className='text-3xl md:text-4xl font-llight'>Basics</h1>
                 <div className='flex flex-col md:flex-row md:flex-wrap gap-10 p-2 py-5'>
                   <SkillBox link={'https://www.w3schools.com/html/'} name={'HTML/CSS/JS'} image={html_css_js} />
                   <SkillBox link={'https://www.typescriptlang.org/'} name={'Typescript'} image={ts.src} />
